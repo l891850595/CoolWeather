@@ -25,9 +25,11 @@ public class ProvinceActivity extends AppCompatActivity {
     public static final String PROVINCE = "province";
     public static final String CITY = "city";
     public static final String COUNTY = "county";
-    //当前的层级：province，city,county
+
+
+
     private String currentlevel =PROVINCE;//city
-    private int provinceId = 0;//当前选中的省id
+    private int provinceId = 0;
     private int cityId=0;
     private int weatherId=0;
     private List<Integer> pids = new ArrayList<>();
