@@ -58,6 +58,9 @@ public class ProvinceActivity extends AppCompatActivity {
                 }else if(currentlevel==COUNTY){
                     String weatherId=ProvinceActivity.this.weatherIds.get(position);
 
+
+
+
                     Intent intent= new Intent(ProvinceActivity.this,WeatherActivity.class);
                     intent.putExtra("wid",weatherId);
                     startActivity(intent);
