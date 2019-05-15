@@ -72,6 +72,9 @@ public class ProvinceActivity extends AppCompatActivity {
         });
         getData(adapter);
 
+
+
+
     }
 
     private void getData(final ArrayAdapter<String> adapter) {
